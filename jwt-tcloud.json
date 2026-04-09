@@ -1,0 +1,48 @@
+{
+  "exp": 1775740052,
+  "iat": 1775739752,
+  "jti": "onrtro:d863a1e7-a5b0-43f7-f04a-5a99ffb3a191",
+  "iss": "https://dev-mgmt.prg1paas.t-cloud.eu/realms/camunda",
+  "aud": [
+    "realm-management",
+    "account"
+  ],
+  "sub": "eb87639b-b8a6-49a0-95d0-fd1d9c857379",
+  "typ": "Bearer",
+  "azp": "camunda-identity-service",
+  "sid": "Z0jJ4Nv46yLInCsZ9viClWY9",
+  "acr": "1",
+  "allowed-origins": [
+    "/*"
+  ],
+  "realm_access": {
+    "roles": [
+      "offline_access",
+      "uma_authorization",
+      "default-roles-camunda"
+    ]
+  },
+  "resource_access": {
+    "realm-management": {
+      "roles": [
+        "view-users",
+        "query-groups",
+        "query-users"
+      ]
+    },
+    "account": {
+      "roles": [
+        "manage-account",
+        "manage-account-links",
+        "view-profile"
+      ]
+    }
+  },
+  "scope": "openid email profile",
+  "email_verified": true,
+  "name": "T-Cloud Admin",
+  "preferred_username": "tcloud",
+  "given_name": "T-Cloud",
+  "family_name": "Admin",
+  "email": "marcina.roman@gmail.com"
+}
